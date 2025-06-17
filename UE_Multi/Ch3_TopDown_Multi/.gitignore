@@ -1,0 +1,74 @@
+*.log
+*.obj
+*.exe
+*.pdb
+*.dll
+*.sdf
+*.suo
+*.opensdf
+*.tlog
+*.VC.db
+*.VC.opendb
+*.tmp
+*.bak
+*.cache
+*.csproj.user
+*.user
+*.sln.docstates
+
+# 빌드 결과물
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 라이브러리 등
+.vscode/
+.vs/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+*.DS_Store
+
+# 플랫폼별
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# UE5 자동 생성된 파일들
+*.opensdf
+*.db
+*.local
+*.log
+
+# Rider 관련 (JetBrains)
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# 콘솔 플랫폼 빌드 (옵션)
+# Xbox, PlayStation 등 콘솔 타겟이 있다면 해당 빌드 디렉토리도 제외
+# 프로젝트에 따라 추가 가능
+
+# 프로젝트별 자동 생성 플러그인 캐시
+.vscode/
+*.code-workspace
+
+# 프로젝트 루트에 자동 생성되는 *.sln 및 .vsconfig 파일 제외 (원한다면 주석 처리)
+#*.sln
+#*.vcxproj*
+#*.vsconfig
+
+# 강제 포함 시킬 것들 (예시)
+!Source/**/*
+!Config/**/*
+!Content/**/*
+!*.uproject
